@@ -1,0 +1,16 @@
+01:52:12 **** Build of configuration Debug for project control ****
+make all 
+Building file: ../Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"Control_ECU.d" -MT"Control_ECU.o" -c -o "Control_ECU.o" "../Control_ECU.c"
+In file included from ../Control_ECU.h:17,
+                 from ../Control_ECU.c:2:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../Control_ECU.c:9: error: 'Asynchronous' undeclared here (not in a function)
+../Control_ECU.c:9: error: 'Even' undeclared here (not in a function)
+../Control_ECU.c:9: error: 'one' undeclared here (not in a function)
+make: *** [Control_ECU.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+01:52:12 Build Failed. 4 errors, 1 warnings. (took 263ms)
+
